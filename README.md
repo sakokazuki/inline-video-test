@@ -25,16 +25,17 @@ https://sakokazuki.github.io/inline-video-test/
 |Android*2 Browser  | ○ | ○ | ✗ | ○ | ✗ | B |
 |Android*2 Chrome   | ○ | ○ | ✗ | ○ | ✗ | - |
 
-*1 iOS 11.3.1
-*2 iOS 9.3.5
-*3 Galaxy S5 SCL23 v6.0.1
-*4 GALAXY J SC-02F v5.0  
 
-control click: コントロールを出して再生ボタンを押してインライン再生できるかどうか
-auto play: inlineで動画がオートプレイされるかどうか。(再生ボタンを押さないと始まらない場合は✗)
-canvas-play: videoをcanvasに描画し、play関数で再生。
-canvas-click-play: videoをcanvasに描画し, onclickのクリックイベントからplay関数で再生。
+\*1 iOS 11.3.1  
+\*2 iOS 9.3.5 
+\*3 Galaxy S5 SCL23 v6.0.1  
+\*4 GALAXY J SC-02F v5.0   
+
+control click: コントロールを出して再生ボタンを押してインライン再生できるかどうか 
+auto play: inlineで動画がオートプレイされるかどうか。(再生ボタンを押さないと始まらない場合は✗)  
+canvas-play: videoをcanvasに描画し、play関数で再生。  
+canvas-click-play: videoをcanvasに描画し, onclickのクリックイベントからplay関数で再生。  
 canvas-currenttime: videoをcanvasに描画し, 再生はせずcurrenTtimeを更新する。  
 
-A: canvas-currenttimeは描画はされるものの、フレーム落ちしているので実用性にはかける
+A: canvas-currenttimeは描画はされるものの、フレーム落ちしているので実用性にはかける  
 B: ビデオの同時再生ができない模様
