@@ -7,8 +7,7 @@ window.onload = ()=>{
 }
 
 const main = ()=>{
-  console.log("main")
-  canvasplay('video');
+  cocanvasplay('video');
   canvasbuttonplay('video-click')
   currentTime('currenttime');
 
@@ -53,11 +52,11 @@ const canvasbuttonplay = async (canvasID)=>{
 const currentTime = async (canvasID)=>{
   const video = await loadvideo();
   const canvas = document.getElementById(canvasID);
-  console.log(canvas);
   const ctx = canvas.getContext('2d');
   const fps = 30;
 
   canvas.parentNode.appendChild(video);
+
 
   let time = 0;
   let lasttime = new Date().getTime();;
@@ -86,6 +85,7 @@ const loadvideo = ()=>{
     //videoタグ作成
     const video = document.createElement("video")
     video.src = './test1.mp4';
+
 
     //アトリビュート追加
     const attrs = ['playsinline', 'webkit-playsinline', 'loop', 'muted']
