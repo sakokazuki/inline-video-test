@@ -20,10 +20,10 @@ https://sakokazuki.github.io/inline-video-test/
 |Edge               | ○ | ○ | ○ | ○ | ○ | - |
 |iOS Safari 10~*1   | ○ | ○ | ○ | ○ | ○ | - |
 |iOS Safari ~9*2    | ✗ | ✗ | ✗ | ✗ | ○ | - |
-|Android*1 Browser  | ○ | ✗ | ✗ | ○ | ✗ | B |
-|Android*1 Chrome   | ○ | ○ | ✗ | ○ | ✗ | - |
-|Android*2 Browser  | ○ | ○ | ✗ | ○ | ✗ | B |
-|Android*2 Chrome   | ○ | ○ | ✗ | ○ | ✗ | - |
+|Android*3 Browser  | ○ | ✗ | ✗ | ○ | ✗ | B |
+|Android*3 Chrome   | ○ | ○ | ✗ | ○ | ✗ | - |
+|Android*4 Browser  | ○ | ○ | ✗ | ○ | ✗ | B |
+|Android*4 Chrome   | ○ | ○ | ✗ | ○ | ✗ | - |
 
 
 \*1 iOS 11.3.1  
