@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --mode development",
-    "prod": "webpack --mode production",
-    "deploy": "yarn prod && cp -r dist docs && git push origin master"
+    "prod": "webpack --mode production && cp -r dist docs"
   },
   "author": "sako kazuki <sakohkazuki@gmail.com> (http://sakokazuki.com/)",
   "license": "ISC",
